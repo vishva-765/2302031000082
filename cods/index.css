@@ -1,0 +1,1696 @@
+
+:root {
+  --default-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+    "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+    "Source Han Sans CN", sans-serif;
+}
+
+.main-container {
+  overflow: hidden;
+}
+
+.main-container,
+.main-container * {
+  box-sizing: border-box;
+}
+
+input,
+select,
+textarea,
+button {
+  outline: 0;
+}
+
+.main-container {
+  position: relative;
+  width: 1729px;
+  height: 1117px;
+  margin: 0 auto;
+  background: #ffffff;
+  overflow: hidden;
+}
+.flex-row-a {
+  position: relative;
+  width: 1682px;
+  height: 100px;
+  margin: 28px 0 0 47px;
+  z-index: 26;
+}
+.star {
+  position: absolute;
+  width: 70px;
+  height: 58px;
+  top: 0;
+  left: 586px;
+  background: url(./assets/images/6a0bb810-2476-4fd7-88db-348c7fe76fbc.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 26;
+}
+.star-1 {
+  position: absolute;
+  width: 70px;
+  height: 58px;
+  top: 32px;
+  left: 980px;
+  background: url(./assets/images/ea2b1afd-c71d-4352-b53a-08736c4c1694.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 25;
+}
+.star-2 {
+  position: absolute;
+  width: 70px;
+  height: 58px;
+  top: 37px;
+  left: 1612px;
+  background: url(./assets/images/72fc3d7d-08ed-4332-ad01-af64022b83fe.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 22;
+}
+.star-3 {
+  position: absolute;
+  width: 70px;
+  height: 58px;
+  top: 40px;
+  left: 1440px;
+  background: url(./assets/images/970d09f9-7e20-4696-bd01-17ecf8953482.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 24;
+}
+.star-4 {
+  position: absolute;
+  width: 63px;
+  height: 51px;
+  top: 49px;
+  left: 0;
+  background: url(./assets/images/f4fd5520-1d5b-4379-aa32-c3ceb425db28.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 14;
+}
+.flex-row-e {
+  position: relative;
+  width: 1510px;
+  height: 157px;
+  margin: 37px 0 0 168px;
+  z-index: 27;
+}
+.ai-driven-poetry-generator {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 79px;
+  top: 0;
+  left: 248px;
+  color: #ea9b9b;
+  font-family: Inter, var(--default-font-family);
+  font-size: 65px;
+  font-weight: 700;
+  line-height: 78.665px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 13;
+}
+.star-5 {
+  position: absolute;
+  width: 66px;
+  height: 63px;
+  top: 24px;
+  left: 1261px;
+  background: url(./assets/images/f13c5c95-a4eb-43be-9a57-06e3b58593b1.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 18;
+}
+.star-6 {
+  position: absolute;
+  width: 70px;
+  height: 58px;
+  top: 67px;
+  left: 0;
+  background: url(./assets/images/9f9dbdd2-90e4-4bf6-842e-64ae402156b5.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 15;
+}
+.star-7 {
+  position: absolute;
+  width: 70px;
+  height: 58px;
+  top: 76px;
+  left: 682px;
+  background: url(./assets/images/5569d643-2257-4258-82b8-465df33127ef.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 19;
+}
+.star-8 {
+  position: absolute;
+  width: 70px;
+  height: 58px;
+  top: 76px;
+  left: 1440px;
+  background: url(./assets/images/1f166a89-12e0-4aa9-9840-fd150614dc3a.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 23;
+}
+.star-9 {
+  position: absolute;
+  width: 70px;
+  height: 58px;
+  top: 99px;
+  left: 350px;
+  background: url(./assets/images/da1b0d88-0342-4677-a235-0338d1a5293f.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 27;
+}
+.star-a {
+  position: relative;
+  width: 66px;
+  height: 63px;
+  margin: 48px 0 0 39px;
+  background: url(./assets/images/7b418419-4f53-48fd-9cdb-06ae3500e250.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 16;
+}
+.star-b {
+  position: relative;
+  width: 70px;
+  height: 58px;
+  margin: 26px 0 0 205px;
+  background: url(./assets/images/77e8c955-93e2-4838-9c0b-2850c5dc6b27.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 21;
+}
+.flex-row-be {
+  position: relative;
+  width: 1690px;
+  height: 224px;
+  margin: 64px 0 0 0;
+  z-index: 28;
+}
+.star-c {
+  position: absolute;
+  width: 63px;
+  height: 51px;
+  top: 0;
+  left: 1627px;
+  background: url(./assets/images/17036dfb-4c8f-4922-97ce-101379d56448.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 17;
+}
+.star-d {
+  position: absolute;
+  width: 70px;
+  height: 58px;
+  top: 3px;
+  left: 1429px;
+  background: url(./assets/images/fcf640bc-4afb-47f6-8c8f-5fbfea426d4c.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 28;
+}
+.star-e {
+  position: absolute;
+  width: 70px;
+  height: 58px;
+  top: 22px;
+  left: 108px;
+  background: url(./assets/images/8c0c96a2-94ee-4843-9ac1-0135701b376f.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 20;
+}
+.line {
+  position: absolute;
+  width: 109.037px;
+  height: 4.999px;
+  top: 60.001px;
+  left: 595.963px;
+  background: url(./assets/images/f4ab2214-1375-498b-8da4-b02fc0026962.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 10;
+}
+.line-one {
+  position: absolute;
+  width: 73.875px;
+  height: 132.484px;
+  top: 60.516px;
+  left: 522.125px;
+  background: url(./assets/images/b52d1c33-7761-429f-9a63-0660a813307e.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 8;
+}
+.line-two {
+  position: absolute;
+  width: 239.008px;
+  height: 3.043px;
+  top: 80px;
+  left: 238px;
+  background: url(./assets/images/3182290d-be4e-4140-b113-a5892d928bf4.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 3;
+}
+.line-three {
+  position: absolute;
+  width: 77.878px;
+  height: 141.479px;
+  top: 83px;
+  left: 161px;
+  background: url(./assets/images/6f3d7001-cde6-49e8-9b1c-823cef3337c4.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 2;
+}
+.line-four {
+  position: absolute;
+  width: 57.862px;
+  height: 97.507px;
+  top: 96px;
+  left: 88px;
+  background: url(./assets/images/8a05036f-f65f-4c67-96b1-7237960e0bef.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 1;
+}
+.line-five {
+  position: absolute;
+  width: 57.035px;
+  height: 2.999px;
+  top: 95.001px;
+  left: 142.965px;
+  background: url(./assets/images/5b2c6d69-96a8-4e09-8ac3-a17e06602d12.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 4;
+}
+.line-six {
+  position: absolute;
+
+:root {
+  --default-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+    "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+    "Source Han Sans CN", sans-serif;
+}
+
+.main-container {
+  overflow: hidden;
+}
+
+.main-container,
+.main-container * {
+  box-sizing: border-box;
+}
+
+input,
+select,
+textarea,
+button {
+  outline: 0;
+}
+
+.main-container {
+  position: relative;
+  width: 1728px;
+  height: 1117px;
+  margin: 0 auto;
+  background: #ffe8e8;
+  overflow: hidden;
+}
+.flex-row {
+  position: relative;
+  width: 1505px;
+  height: 403px;
+  margin: 156px 0 0 123px;
+  z-index: 6;
+}
+.rectangle {
+  position: absolute;
+  width: 382px;
+  height: 403px;
+  top: 0;
+  left: 0;
+  background: #d9d9d9;
+}
+.rectangle-1 {
+  position: absolute;
+  width: 382px;
+  height: 403px;
+  top: 0;
+  left: 0;
+  background: #fffbfb;
+  z-index: 1;
+  border-radius: 17px;
+}
+.vector {
+  position: relative;
+  width: 201.103px;
+  height: 195.956px;
+  margin: 104px 0 0 87px;
+  background: url(./assets/images/71fe2268-88f7-4850-90da-c00ec311fae2.png)
+    no-repeat center;
+  background-size: 100% 100%;
+  z-index: 15;
+}
+.teacher {
+  display: block;
+  position: relative;
+  height: 36px;
+  margin: 37.044px 0 0 101px;
+  color: #000000;
+  font-family: Inter, var(--default-font-family);
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 36px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 10;
+}
+.rectangle-2 {
+  position: absolute;
+  width: 382px;
+  height: 403px;
+  top: 0;
+  left: 550px;
+  background: #fffbfb;
+  z-index: 6;
+  border-radius: 17px;
+}
+.user-graduate {
+  position: relative;
+  width: 174.025px;
+  height: 198.895px;
+  margin: 62px 0 0 93px;
+  background: url(./assets/images/bf4c706c-4e38-4ca1-92a1-91dfcd65332f.png)
+    no-repeat center;
+  background-size: 100% 100%;
+  z-index: 16;
+}
+.student {
+  display: block;
+  position: relative;
+  height: 36px;
+  margin: 69.105px 0 0 120px;
+  color: #000000;
+  font-family: Inter, var(--default-font-family);
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 36px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 7;
+}
+.rectangle-3 {
+  position: absolute;
+  width: 382px;
+  height: 403px;
+  top: 0;
+  left: 1123px;
+  background: #ffffff;
+  z-index: 3;
+  border-radius: 17px;
+}
+.parent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 36px;
+  top: 319px;
+  left: 132px;
+  color: #000000;
+  font-family: Inter, var(--default-font-family);
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 36px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 11;
+}
+.flex-row-fe {
+  position: relative;
+  width: 1505px;
+  height: 403px;
+  margin: 117px 0 0 123px;
+  z-index: 8;
+}
+.rectangle-4 {
+  position: absolute;
+  width: 382px;
+  height: 403px;
+  top: 0;
+  left: 0;
+  background: #ffffff;
+  z-index: 2;
+  border-radius: 17px;
+}
+.poet-cryptocurrency {
+  position: relative;
+  width: 174.025px;
+  height: 174.025px;
+  margin: 96px 0 0 101px;
+  background: url(./assets/images/a5879687-f517-43cb-b877-4477845140b2.png)
+    no-repeat center;
+  background-size: 100% 100%;
+  z-index: 14;
+}
+.poet {
+  display: block;
+  position: relative;
+  height: 36px;
+  margin: 56.975px 0 0 117px;
+  color: #000000;
+  font-family: Inter, var(--default-font-family);
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 36px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 12;
+}
+.rectangle-5 {
+  position: absolute;
+  width: 382px;
+  height: 403px;
+  top: 0;
+  left: 550px;
+  background: #ffffff;
+  z-index: 8;
+  border-radius: 17px;
+}
+.duck-icon {
+  position: relative;
+  width: 252px;
+  height: 242.31px;
+  margin: 38px 0 0 65px;
+  background: url(./assets/images/b6b9de03-c246-4921-828e-fd877f0b3ee1.png)
+    no-repeat center;
+  background-size: 100% 100%;
+  z-index: 13;
+}
+.poetry-lover {
+  display: block;
+  position: relative;
+  height: 36px;
+  margin: 68.69px 0 0 80px;
+  color: #000000;
+  font-family: Inter, var(--default-font-family);
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 36px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 9;
+}
+.rectangle-6 {
+  position: absolute;
+  width: 382px;
+  height: 403px;
+  top: 0;
+  left: 1123px;
+  background: #ffffff;
+  z-index: 4;
+  border-radius: 17px;
+}
+.other {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 36px;
+  top: 320px;
+  left: 132px;
+  color: #000000;
+  font-family: Inter, var(--default-font-family);
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 36px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 5;
+}
+
+:root {
+  --default-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+    "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+    "Source Han Sans CN", sans-serif;
+}
+
+.main-container {
+  overflow: hidden;
+}
+
+.main-container,
+.main-container * {
+  box-sizing: border-box;
+}
+
+input,
+select,
+textarea,
+button {
+  outline: 0;
+}
+
+.main-container {
+  position: relative;
+  width: 1728px;
+  height: 1117px;
+  margin: 0 auto;
+}
+.login-page-1 {
+  position: absolute;
+  width: 1728px;
+  height: 1117px;
+  top: 0;
+  left: 0;
+  background: #ffffff;
+  overflow: hidden;
+}
+.flex-row-dc {
+  position: absolute;
+  width: 608.077px;
+  height: 188.112px;
+  top: -14px;
+  left: 492px;
+  z-index: 16;
+}
+.polygon {
+  position: absolute;
+  width: 103.077px;
+  height: 96.215px;
+  top: 0;
+  left: 412px;
+  background: url(./assets/images/ac1ee5d9-d1d8-4d38-b6c8-4ea1202f7614.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 12;
+}
+.polygon-2 {
+  position: absolute;
+  width: 103.077px;
+  height: 96.215px;
+  top: 9px;
+  left: 143px;
+  background: url(./assets/images/c459ffcb-83b8-4789-a2f4-8ef53f69bcba.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 10;
+}
+.polygon-3 {
+  position: absolute;
+  width: 103.077px;
+  height: 96.215px;
+  top: 11px;
+  left: 0;
+  background: url(./assets/images/5e1fa0ea-7737-490d-b2fe-e278a8bb2e47.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 9;
+}
+.polygon-4 {
+  position: absolute;
+  width: 103.077px;
+  height: 96.215px;
+  top: 15px;
+  left: 505px;
+  background: url(./assets/images/1b2c7d5a-c7ea-4482-be16-46c1c07ce545.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 16;
+}
+.polygon-5 {
+  position: absolute;
+  width: 89.141px;
+  height: 72.296px;
+  top: 31.841px;
+  left: 284.103px;
+  background: url(./assets/images/46278f15-4c4d-498a-bff4-1da56e862d7f.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 13;
+}
+.polygon-6 {
+  position: absolute;
+  width: 103.112px;
+  height: 103.112px;
+  top: 85px;
+  left: 41px;
+  background: url(./assets/images/25cd1c4b-a765-4895-bdea-c3aebff78da7.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 6;
+}
+.polygon-7 {
+  position: absolute;
+  width: 102.369px;
+  height: 90.418px;
+  top: -11px;
+  left: 1108px;
+  background: url(./assets/images/547b2e85-cbac-444e-86d4-afa2fc85b63e.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 7;
+}
+.flex-row-d {
+  position: absolute;
+  width: 1724.077px;
+  height: 547.215px;
+  top: -6px;
+  left: 11px;
+  z-index: 102;
+}
+.polygon-8 {
+  position: absolute;
+  width: 103.077px;
+  height: 96.215px;
+  top: 0;
+  left: 1230px;
+  background: url(./assets/images/0daaa052-482b-4c52-8fcd-dbaa9726aaf5.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 24;
+}
+.polygon-9 {
+  position: absolute;
+  width: 103.077px;
+  height: 96.215px;
+  top: 2px;
+  left: 145px;
+  background: url(./assets/images/dfaaac1f-b260-405a-89e9-0fc9d4b1b7fe.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 75;
+}
+.polygon-a {
+  position: absolute;
+  width: 103.077px;
+  height: 96.215px;
+  top: 4px;
+  left: 326px;
+  background: url(./assets/images/86f0c5f1-9ecb-434e-84ce-e64243dbd00a.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 74;
+}
+.polygon-b {
+  position: absolute;
+  width: 103.077px;
+  height: 96.215px;
+  top: 29px;
+  left: 1437px;
+  background: url(./assets/images/ee8dacba-de87-49ac-a7f4-0281ed9b1087.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 44;
+}
+.polygon-c {
+  position: absolute;
+  width: 103.077px;
+  height: 96.215px;
+  top: 37px;
+  left: 0;
+  background: url(./assets/images/b878891b-ce53-4cc1-8e70-95ea2cf93b8f.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 53;
+}
+.rectangle {
+  position: absolute;
+  width: 254px;
+  height: 81px;
+  top: 56px;
+  left: 25px;
+  cursor: pointer;
+  background: #ffe7e7;
+  border: none;
+  z-index: 101;
+  border-radius: 17px;
+}
+.polygon-d {
+  position: absolute;
+  width: 133.706px;
+  height: 136.156px;
+  top: 63px;
+  left: 1189px;
+  background: url(./assets/images/d4ccbba1-1713-43f5-8950-d61905d4d993.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 21;
+}
+.polygon-e {
+  position: absolute;
+  width: 103.077px;
+  height: 96.215px;
+  top: 70px;
+  left: 1588px;
+  background: url(./assets/images/52e7905b-1107-4ee2-bf14-a2615fca3c9c.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 36;
+}
+.back {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 36px;
+  top: 77px;
+  left: 103px;
+  color: #000000;
+  font-family: Inter, var(--default-font-family);
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 36px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 102;
+}
+.polygon-f {
+  position: absolute;
+  width: 103.077px;
+  height: 96.215px;
+  top: 89px;
+  left: 239px;
+  background: url(./assets/images/f3edf8a0-4d6b-4823-b3c3-ceb1265b4650.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 54;
+}
+.polygon-10 {
+  position: absolute;
+  width: 103.077px;
+  height: 96.215px;
+  top: 111px;
+  left: 651px;
+  background: url(./assets/images/dc0c9e82-30e5-4024-85a7-d1b2630bd563.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 11;
+}
+.polygon-11 {
+  position: absolute;
+  width: 103.077px;
+  height: 96.215px;
+  top: 112px;
+  left: 1096px;
+  background: url(./assets/images/ac68ee15-fd10-480d-b3f6-52859ff9fa58.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 8;
+}
+.polygon-12 {
+  position: absolute;
+  width: 103.077px;
+  height: 96.215px;
+  top: 123px;
+  left: 447px;
+  background: url(./assets/images/b7ea8447-7d8e-4cff-a60f-b5bb4ba11d91.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 71;
+}
+.polygon-13 {
+  position: absolute;
+  width: 103.077px;
+  height: 96.215px;
+  top: 123px;
+  left: 993px;
+  background: url(./assets/images/f77836b8-04b9-45f1-8c44-7d88440d6839.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 15;
+}
+.polygon-14 {
+  position: absolute;
+  width: 102.539px;
+  height: 95.637px;
+  top: 128.289px;
+  left: 882.269px;
+  background: url(./assets/images/f1b077e0-62af-4145-a155-4042929b3cc6.png)
+    no-repeat center;
+
+:root {
+  --default-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+    "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+    "Source Han Sans CN", sans-serif;
+}
+
+.main-container {
+  overflow: hidden;
+}
+
+.main-container,
+.main-container * {
+  box-sizing: border-box;
+}
+
+input,
+select,
+textarea,
+button {
+  outline: 0;
+}
+
+.main-container {
+  position: relative;
+  width: 1728px;
+  height: 1117px;
+  margin: 0 auto;
+  background: #fffbfb;
+  overflow: hidden;
+}
+.cute-pink-robot {
+  position: absolute;
+  width: 1728px;
+  height: 1117px;
+  top: 0;
+  left: 0;
+  background: url(./assets/images/0d7e6f5c17d5752550f52383e1b1090159700725.png)
+    no-repeat center;
+  background-size: cover;
+}
+.flex-column-ae {
+  position: absolute;
+  width: 967px;
+  height: 828px;
+  top: 104px;
+  left: 447px;
+  font-size: 0px;
+  z-index: 7;
+}
+.ai-poetry-generator {
+  display: block;
+  position: relative;
+  height: 77px;
+  margin: 0 0 0 0;
+  color: #000000;
+  font-family: Inter, var(--default-font-family);
+  font-size: 64px;
+  font-weight: 900;
+  line-height: 77px;
+  text-align: left;
+  white-space: nowrap;
+  letter-spacing: 3.84px;
+  z-index: 7;
+}
+.rectangle {
+  position: relative;
+  width: 776px;
+  height: 51px;
+  margin: 242px 0 0 0;
+  background: #ffe8e8;
+  z-index: 1;
+  border-radius: 17px;
+}
+.rectangle-1 {
+  position: relative;
+  width: 776px;
+  height: 51px;
+  margin: 85px 0 0 0;
+  background: #ffe8e8;
+  z-index: 2;
+  border-radius: 17px;
+}
+.rectangle-2 {
+  position: relative;
+  width: 520px;
+  height: 144px;
+  margin: 178px 0 0 116px;
+  cursor: pointer;
+  background: #ffe8e8;
+  border: none;
+  z-index: 5;
+  border-radius: 17px;
+}
+.submit {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 48px;
+  top: 48px;
+  left: 195px;
+  color: #000000;
+  font-family: Inter, var(--default-font-family);
+  font-size: 40px;
+  font-weight: 300;
+  line-height: 48px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 6;
+}
+.flex-column-cb {
+  position: absolute;
+  width: 249px;
+  height: 180px;
+  top: 422px;
+  left: 162px;
+  font-size: 0px;
+  z-index: 4;
+}
+.new-password {
+  display: block;
+  position: relative;
+  height: 34px;
+  margin: 0 0 0 65px;
+  color: #000000;
+  font-family: Inter, var(--default-font-family);
+  font-size: 28px;
+  font-weight: 900;
+  line-height: 33.886px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 3;
+}
+.conform-password {
+  display: block;
+  position: relative;
+  height: 34px;
+  margin: 112px 0 0 0;
+  color: #000000;
+  font-family: Inter, var(--default-font-family);
+  font-size: 28px;
+  font-weight: 800;
+  line-height: 33.886px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 4;
+}
+
+:root {
+  --default-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+    "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+    "Source Han Sans CN", sans-serif;
+}
+
+.main-container {
+  overflow: hidden;
+}
+
+.main-container,
+.main-container * {
+  box-sizing: border-box;
+}
+
+input,
+select,
+textarea,
+button {
+  outline: 0;
+}
+
+.main-container {
+  position: relative;
+  width: 1723px;
+  height: 1116px;
+  margin: 0 auto;
+  background: url(../assets/images/6ee6d11664b06ee1c7aa0feb8c05c016dcfeb039.png)
+    no-repeat center;
+  background-size: cover;
+}
+
+:root {
+  --default-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+    "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+    "Source Han Sans CN", sans-serif;
+}
+
+.main-container {
+  overflow: hidden;
+}
+
+.main-container,
+.main-container * {
+  box-sizing: border-box;
+}
+
+input,
+select,
+textarea,
+button {
+  outline: 0;
+}
+
+.main-container {
+  position: relative;
+  width: 1728px;
+  height: 1117px;
+  margin: 0 auto;
+  background: #ffe8e8;
+  overflow: hidden;
+}
+.flex-column {
+  position: relative;
+  width: 1130px;
+  height: 512px;
+  margin: 266px 0 0 299px;
+  font-size: 0px;
+  z-index: 1;
+  overflow: visible auto;
+}
+.generated-poem {
+  display: block;
+  position: relative;
+  height: 36px;
+  margin: 0 0 0 0;
+  color: #000000;
+  font-family: Inter, var(--default-font-family);
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 36px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 1;
+}
+.rectangle {
+  position: relative;
+  width: 1130px;
+  height: 439px;
+  margin: 37px 0 0 0;
+  font-size: 0px;
+  background: #fffbfb;
+  overflow: visible auto;
+  border-radius: 17px;
+}
+.springing-of-the-year {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  width: 644px;
+  height: 144px;
+  margin: 40px 0 0 35px;
+  color: #000000;
+  font-family: Inter, var(--default-font-family);
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 36.307px;
+  text-align: left;
+  z-index: 2;
+}
+.ring-wreath-command {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  width: 477px;
+  height: 144px;
+  margin: 77px 0 0 58px;
+  color: #000000;
+  font-family: Inter, var(--default-font-family);
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 36.307px;
+  text-align: left;
+  z-index: 3;
+}
+.rectangle-1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 224px;
+  height: 58px;
+  margin: 183px 0 0 75px;
+  cursor: pointer;
+  background: #fffafa;
+  border: none;
+  z-index: 5;
+  border-radius: 17px;
+}
+.back {
+  flex-shrink: 0;
+  position: relative;
+  height: 36px;
+  color: #000000;
+  font-family: Inter, var(--default-font-family);
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 36px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 5;
+}
+
+:root {
+  --default-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+    "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+    "Source Han Sans CN", sans-serif;
+}
+
+.main-container {
+  overflow: hidden;
+}
+
+.main-container,
+.main-container * {
+  box-sizing: border-box;
+}
+
+input,
+select,
+textarea,
+button {
+  outline: 0;
+}
+
+.main-container {
+  position: relative;
+  width: 1728px;
+  height: 1117px;
+  margin: 0 auto;
+  background: #9d9ab5;
+  overflow: hidden;
+}
+.flex-column-d {
+  position: absolute;
+  width: 1180px;
+  height: 269px;
+  top: 0;
+  left: 548px;
+  z-index: 2;
+}
+.ai-agent-assist {
+  position: absolute;
+  width: 1086px;
+  height: 1117px;
+  top: 0;
+  left: 94px;
+  background: url(./assets/images/69f3b2c4c661e39abadf9f871595d182ec0824a3.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 1;
+}
+.line {
+  position: absolute;
+  width: 1.054px;
+  height: 741px;
+  top: 376px;
+  left: 0;
+  background: url(./assets/images/ee11de8e-0db4-4836-93f5-3a19b699d9c0.png)
+    no-repeat center;
+  background-size: cover;
+}
+.flex-column-bb {
+  position: absolute;
+  width: 524px;
+  height: 558px;
+  top: 470px;
+  left: 36px;
+  font-size: 0px;
+  z-index: 11;
+}
+.full-name {
+  display: block;
+  position: relative;
+  height: 36px;
+  margin: 0 0 0 0;
+  color: #000000;
+  font-family: Inter, var(--default-font-family);
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 36px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 3;
+}
+.patel-vishva-dharmendra-kumar {
+  display: block;
+  position: relative;
+  height: 36px;
+  margin: 17px 0 0 16px;
+  color: #000000;
+  font-family: Inter, var(--default-font-family);
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 36px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 6;
+}
+.e-mail {
+  display: block;
+  position: relative;
+  height: 36px;
+  margin: 51px 0 0 0;
+  color: #000000;
+  font-family: Inter, var(--default-font-family);
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 36px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 9;
+}
+.silveroakuni-ac-in {
+  display: block;
+  position: relative;
+  height: 36px;
+  margin: 1px 0 0 16px;
+  color: #000000;
+  font-family: Inter, var(--default-font-family);
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 36px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 10;
+}
+.enrollment-no {
+  display: block;
+  position: relative;
+  height: 36px;
+  margin: 52px 0 0 0;
+  color: #000000;
+  font-family: Inter, var(--default-font-family);
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 36px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 7;
+}
+.text-6 {
+  display: block;
+  position: relative;
+  height: 36px;
+  margin: 7px 0 0 16px;
+  color: #000000;
+  font-family: Inter, var(--default-font-family);
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 36px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 8;
+}
+.Button {
+  position: relative;
+  width: 352px;
+  height: 82px;
+  margin: 132px 0 0 42px;
+  cursor: pointer;
+  background: #fff7f7;
+  border: none;
+  z-index: 11;
+  border-radius: 17px;
+}
+.text-7 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 36px;
+  top: 23px;
+  left: 88px;
+  color: #000000;
+  font-family: Inter, var(--default-font-family);
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 36px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 12;
+}
+.text-8 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 133px;
+  top: 136px;
+  left: 0;
+  color: #000000;
+  font-family: Inter, var(--default-font-family);
+  font-size: 100px;
+  font-weight: 700;
+  line-height: 121.023px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 2;
+}
+.section-2 {
+  position: absolute;
+  width: 392px;
+  height: 1047px;
+  top: 35px;
+  left: 24px;
+  z-index: 13;
+}
+.rectangle {
+  position: relative;
+  width: 231px;
+  height: 56px;
+  margin: 0 0 0 0;
+  background: #fffbfb;
+  z-index: 13;
+  border-radius: 17px;
+}
+.based-in {
+  display: block;
+  position: relative;
+  height: 36px;
+  margin: 885px 0 0 108px;
+  color: #000000;
+  font-family: Inter, var(--default-font-family);
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 36px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 5;
+}
+.ai-driven-poetry {
+  display: block;
+  position: relative;
+  height: 54px;
+  margin: 16px 0 0 0;
+  color: #000000;
+  font-family: Inter, var(--default-font-family);
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 36.307px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 4;
+}
+:root {
+  --default-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+    "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+    "Source Han Sans CN", sans-serif;
+}
+
+.main-container {
+  overflow: hidden;
+}
+
+.main-container,
+.main-container * {
+  box-sizing: border-box;
+}
+
+input,
+select,
+textarea,
+button {
+  outline: 0;
+}
+
+.main-container {
+  position: relative;
+  width: 1728px;
+  height: 1117px;
+  margin: 0 auto;
+  background: #ffe8e8;
+  overflow: hidden;
+}
+.flex-row-aa {
+  position: relative;
+  width: 1364px;
+  height: 232px;
+  margin: 80px 0 0 31px;
+  z-index: 7;
+}
+.rectangle {
+  position: absolute;
+  width: 224px;
+  height: 58px;
+  top: 0;
+  left: 0;
+  cursor: pointer;
+  background: #fffafa;
+  border: none;
+  z-index: 7;
+  border-radius: 17px;
+}
+.back {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 36px;
+  top: 11px;
+  left: 61px;
+  color: #000000;
+  font-family: Inter, var(--default-font-family);
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 36px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 8;
+}
+.about-poem-analysis {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  width: 958px;
+  height: 232px;
+  top: 0;
+  left: 406px;
+  color: #000000;
+  font-family: Inter, var(--default-font-family);
+  font-size: 96px;
+  font-weight: 400;
+  line-height: 116.182px;
+  text-align: left;
+  text-overflow: initial;
+  overflow: hidden;
+}
+.home-of-poetry {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 50px;
+  top: 182px;
+  left: 477px;
+  color: #000000;
+  font-family: Inter, var(--default-font-family);
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 48.409px;
+  text-align: left;
+  text-overflow: initial;
+  white-space: nowrap;
+  z-index: 1;
+  overflow: hidden;
+}
+.poetry-experts-home {
+  display: block;
+  position: relative;
+  height: 37px;
+  margin: 66px 0 0 201px;
+  color: #000000;
+  font-family: Inter, var(--default-font-family);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 29.045px;
+  text-align: left;
+  text-overflow: initial;
+  white-space: nowrap;
+  z-index: 2;
+  overflow: hidden;
+}
+.flex-row-f {
+  position: relative;
+  width: 1042px;
+  height: 345px;
+  margin: 27px 0 0 387px;
+  z-index: 6;
+}
+.powerful-feelings-overflow {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  width: 1042px;
+  height: 117px;
+  top: 0;
+  left: 0;
+  color: #000000;
+  font-family: Inter, var(--default-font-family);
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 43.568px;
+  text-align: left;
+  z-index: 3;
+}
+.william-wordsworth-portrait {
+  position: absolute;
+  width: 278px;
+  height: 246px;
+  top: 99px;
+  left: 328px;
+  background: url(./assets/images/c4da8415-8a43-4ab8-ba42-042331b0e454.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 6;
+}
+.english-poet-influential {
+  position: relative;
+  width: 1653px;
+  height: 133px;
+  margin: 0 0 0 75px;
+  font-family: Inter, var(--default-font-family);
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 38.727px;
+  text-align: left;
+  z-index: 4;
+}
+.influential-romantic-poet {
+  position: relative;
+  color: #000000;
+  font-family: Inter, var(--default-font-family);
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 38.727px;
+  text-align: left;
+}
+.influential-romantic-poet-1 {
+  position: relative;
+  color: #000000;
+  font-family: Inter, var(--default-font-family);
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 38.727px;
+  text-align: left;
+  text-decoration: underline;
+}
+.influential-romantic-poet-2 {
+  position: relative;
+  color: #000000;
+  font-family: Inter, var(--default-font-family);
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 38.727px;
+  text-align: left;
+}
+.famous-poems {
+  position: relative;
+  width: 1613.409px;
+  height: 124.187px;
+  margin: 66px 0 0 75px;
+  font-family: Inter, var(--default-font-family);
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 38.727px;
+  text-align: left;
+  transform: rotate(-0.13deg);
+  z-index: 5;
+}
+.empty {
+  position: relative;
+  color: #000000;
+  font-family: Inter, var(--default-font-family);
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 38.727px;
+  text-align: left;
+}
+.lines-composed-tintern-abbey {
+  position: relative;
+  color: #000000;
+  font-family: Inter, var(--default-font-family);
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 38.727px;
+  text-align: left;
+  text-decoration: underline;
+}
+.empty-3 {
+  position: relative;
+  color: #000000;
+  font-family: Inter, var(--default-font-family);
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 38.727px;
+  text-align: left;
+}
+.lucy-gray {
+  position: relative;
+  color: #000000;
+  font-family: Inter, var(--default-font-family);
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 38.727px;
+  text-align: left;
+  text-decoration: underline;
+}
+.empty-4 {
+  position: relative;
+  color: #000000;
+  font-family: Inter, var(--default-font-family);
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 38.727px;
+  text-align: left;
+}
+.lines-composed-tintern-abbey-5 {
+  position: relative;
+  color: #000000;
+  font-family: Inter, var(--default-font-family);
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 38.727px;
+  text-align: left;
+  text-decoration: underline;
+}
+.empty-6 {
+  position: relative;
+  color: #000000;
+  font-family: Inter, var(--default-font-family);
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 38.727px;
+  text-align: left;
+}
+.heart-leaps-up {
+  position: relative;
+  color: #000000;
+  font-family: Inter, var(--default-font-family);
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 38.727px;
+  text-align: left;
+  text-decoration: underline;
+}
+.empty-7 {
+  position: relative;
+  color: #000000;
+  font-family: Inter, var(--default-font-family);
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 38.727px;
+  text-align: left;
+}
+.lines-composed-tintern-abbey-8 {
+  position: relative;
+  color: #000000;
+  font-family: Inter, var(--default-font-family);
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 38.727px;

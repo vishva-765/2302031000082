@@ -1,0 +1,66 @@
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+# Load dataset
+df = pd.read_csv('Superstore.csv', encoding='latin1')
+
+# Preview data
+print(df.head())
+print(df.info())
+print(df.describe())
+
+# Check for missing values
+print(df.isnull().sum())
+
+# Convert 'Order Date' to datetime
+df['Order Date'] = pd.to_datetime(df['Order Date'])
+
+# Add month & year columns
+df['Month'] = df['Order Date'].dt.month
+df['Year'] = df['Order Date'].dt.year
+
+# ----- Q1: Monthly Sales Trend -----
+monthly_sales = df.groupby(['Year', 'Month'])['Sales'].sum().reset_index()
+monthly_sales['Year-Month'] = pd.to_datetime(monthly_sales[['Year', 'Month']].assign(DAY=1))
+
+plt.figure(figsize=(12,6))
+sns.lineplot(data=monthly_sales, x='Year-Month', y='Sales', marker='o')
+plt.title('Monthly Sales Trend')
+plt.xlabel('Date')
+plt.ylabel('Sales')
+plt.xticks(rotation=45)
+plt.grid()
+plt.tight_layout()
+plt.show()
+
+# ----- Q2: Profit by Category and Sub-Category -----
+category_profit = df.groupby(['Category', 'Sub-Category'])['Profit'].sum().sort_values(ascending=False)
+
+plt.figure(figsize=(12,8))
+category_profit.plot(kind='bar')
+plt.title('Profit by Category and Sub-Category')
+plt.ylabel('Total Profit')
+plt.tight_layout()
+plt.show()
+
+# ----- Q3: Top 10 States by Revenue -----
+state_sales = df.groupby('State')['Sales'].sum().sort_values(ascending=False).head(10)
+
+plt.figure(figsize=(10,6))
+state_sales.plot(kind='bar', color='skyblue')
+plt.title('Top 10 States by Revenue')
+plt.ylabel('Sales')
+plt.xticks(rotation=45)
+plt.show()
+
+# ----- Q4: Average Delivery Time by Ship Mode -----
+df['Ship Date'] = pd.to_datetime(df['Ship Date'])
+df['Delivery Time'] = (df['Ship Date'] - df['Order Date']).dt.days
+ship_time = df.groupby('Ship Mode')['Delivery Time'].mean()
+
+plt.figure(figsize=(8,5))
+ship_time.plot(kind='bar', color='orange')
+plt.title('Average Delivery Time by Ship Mode')
+plt.ylabel('Days')
+plt.show()
